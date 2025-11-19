@@ -1,0 +1,8 @@
+# backend
+Flask==2.2.1
+# banco de dados
+Flask-SQLAlchemy==3.0.3
+# tratamento das URL's
+Werkzeug==2.2.2
+# crptografia da senha do banco
+authlib==0.15.4

@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Create Item</h1>
+<form method="POST">
+  <div class="form-group">
+    <label for="modelo">Modelo</label>
+    <input
+      type="text"
+      class="form-control"
+      id="modelo"
+      name="modelo"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="marca">Marca</label>
+    <input type="text" class="form-control" id="marca" name="marca" required />
+  </div>
+  <div class="form-group">
+    <label for="ano">Ano</label>
+    <input type="text" class="form-control" id="ano" name="ano" required />
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <input
+      type="text"
+      class="form-control"
+      id="description"
+      name="description"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">Create</button>
+</form>
+{% endblock %}
